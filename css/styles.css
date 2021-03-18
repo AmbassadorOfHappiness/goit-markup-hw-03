@@ -1,0 +1,135 @@
+/* цвет параграфов color: #757575; */
+/* цвет заголовков color: #212121; */
+/* цвет текста шапки color: #FFFFFF; */
+/* цвет контактов футера color: rgba(255, 255, 255, 0.6); */
+/* цвет фона-1 background: #2F303A; */
+/* цвет фона-2 background: #F5F4FA; */
+/* акцент color: #2196F3; */
+
+:root {
+  --main-text-color: #757575;
+  --header-text-color: #212121;
+  --white-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --dark-background-color: #2f303a;
+  --grey-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  
+  color: var(--header-text-color);
+  background: var(--white-text-color);
+}
+address {
+  font-style: normal;
+}
+
+.link {
+  /* убрали подчеркивание*/
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/*--НУЖНО СОКРАЩАТЬ "team-item","team-item" В team??? */
+.team {
+  background-color: var(--grey-background-color);
+}
+.team-item {
+  text-align: center;
+}
+.С{
+  font-size: 16px;
+  line-height: 1.19;
+}
+.dark-bg {
+  background-color: var(--dark-background-color);
+  color: var(--white-text-color);
+}
+.footer-contacts {
+color: var(--footer-text-color);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+.filter {  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.filter:hover,
+.filter:focus {
+ background-color: var(--accent-color);
+ color: var(--white-text-color);
+}
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
